@@ -1145,7 +1145,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'https://t.me/AboutAigo')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="t.me/prime_aigo")
+                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', url=f"t.me/prime_aigo")
                   ]]        
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
